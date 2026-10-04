@@ -31,8 +31,29 @@
   </nav>
 
   <main class="container py-4">
+
     <h1 class="h4 mb-3">自习室</h1>
-    <div class="placeholder-box">占位</div>
+
+    <div class="row g-2 mb-3">
+      <div class="col-6 col-md-3">
+        <select id="filter-floor" class="form-select" aria-label="按楼层筛选">
+          <option value="all">全部楼层</option>
+          <option value="1">1F</option>
+          <option value="2">2F</option>
+          <option value="3">3F</option>
+        </select>
+      </div>
+      <div class="col-6 col-md-3">
+        <select id="filter-status" class="form-select" aria-label="按开放状态筛选">
+          <option value="all">全部状态</option>
+          <option value="open">开放</option>
+          <option value="closed">关闭</option>
+        </select>
+      </div>
+    </div>
+
+    <ul id="study-room-list" class="list-group"></ul>
+
   </main>
 
   <script src="libs/jquery-3.7.1.min.js"></script>
