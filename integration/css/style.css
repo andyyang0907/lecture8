@@ -1,0 +1,18 @@
+/* 自定义样式：在 Bootstrap 之后引入，用于覆盖或补充 */
+
+.module-card {
+  height: 100%;
+}
+
+.placeholder-box {
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  border: 1px dashed #ced4da;
+  border-radius: .375rem;
+  color: #6c757d;
+  padding: 1rem;
+  text-align: center;
+}
