@@ -1,0 +1,14 @@
+/* 自定义样式：在 Bootstrap 之后引入 */
+
+.rocket-card-color {
+  height: 6px;
+  border-top-left-radius: .375rem;
+  border-top-right-radius: .375rem;
+}
+
+.timeline-year {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0d6efd;
+  min-width: 80px;
+}

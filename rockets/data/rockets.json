@@ -1,0 +1,56 @@
+{
+  "title": "运载火箭参数汇编",
+  "source": "火箭参数汇编（模拟数据，参数取自公开技术资料的近似值）",
+  "rockets": [
+    {
+      "id": "long-march-5",
+      "name": "长征五号",
+      "country": "中国",
+      "firstLaunch": "2016",
+      "height": 56.97,
+      "diameter": 5.0,
+      "massToLEO": 23.1,
+      "color": "#de2910",
+      "description": "中国新一代大型运载火箭，主要用于空间站舱段、探月探火等任务。"
+    },
+    {
+      "id": "falcon-9",
+      "name": "猎鹰 9 号",
+      "country": "美国",
+      "firstLaunch": "2010",
+      "height": 70.0,
+      "diameter": 3.66,
+      "massToLEO": 22.8,
+      "color": "#1f77b4",
+      "description": "SpaceX 主力运载火箭，一子级可垂直回收重复使用。"
+    },
+    {
+      "id": "saturn-v",
+      "name": "土星五号",
+      "country": "美国",
+      "firstLaunch": "1967",
+      "height": 110.6,
+      "diameter": 10.1,
+      "massToLEO": 140.0,
+      "color": "#2ca02c",
+      "description": "阿波罗登月计划专用火箭，人类历史上运载能力最强的火箭之一。"
+    },
+    {
+      "id": "ariane-5",
+      "name": "Ariane 5",
+      "country": "欧洲",
+      "firstLaunch": "1996",
+      "height": 53.0,
+      "diameter": 5.4,
+      "massToLEO": 21.0,
+      "color": "#9467bd",
+      "description": "欧洲航天局主力运载火箭，承担大量商业卫星发射任务。"
+    }
+  ],
+  "timeline": [
+    { "year": "1957", "event": "苏联 R-7 火箭发射 Sputnik 1，第一颗人造卫星进入太空。" },
+    { "year": "1969", "event": "土星五号搭载阿波罗 11 号登月，宇航员首次踏上月球。" },
+    { "year": "2010", "event": "SpaceX 猎鹰 9 号首飞，第一枚部分可回收的轨道级火箭。" },
+    { "year": "2016", "event": "中国长征五号首飞成功，新一代大型运载火箭投入使用。" }
+  ]
+}
