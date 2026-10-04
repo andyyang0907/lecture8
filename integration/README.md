@@ -1,6 +1,14 @@
 # 校园信息中心
 
-课堂作业八 · 案例复现（第一步）
+课堂作业八 · 案例复现：迷你版校园公共信息与数据展示中心
+
+## 项目简介
+
+跟随教师演示分三步搭建"校园信息中心"骨架，体验"课堂成果 → 综合作品"的组装路径：
+
+1. **第一步：入口与首页** — Bootstrap 导航 + 首页卡片区块
+2. **第二步：查询交互与图表** — 自习室楼层/开放状态筛选 + ECharts 柱状图
+3. **第三步：三维区与质量自查** — A-Frame 校园地标场景
 
 ## 运行方式
 
@@ -28,7 +36,7 @@ integration/
 ├── css/style.css
 ├── js/app.js
 ├── libs/
-├── data/
+├── data/data.json
 └── three-d/scene.html
 ```
 
@@ -40,5 +48,10 @@ integration/
 | --- | --- |
 | Bootstrap | [getbootstrap.com](https://getbootstrap.com/) |
 | jQuery 3.7.1 | [jquery.com](https://jquery.com/) |
-| ECharts | [echarts.apache.org](https://echarts.apache.org/)（第二步使用） |
+| ECharts | [echarts.apache.org](https://echarts.apache.org/) |
 | Chart.js | [chartjs.org](https://www.chartjs.org/)（备选） |
+| A-Frame | [aframe.io](https://aframe.io/)（三维场景使用） |
+
+三维场景（教学楼、旗杆、路灯）移植自参考实现 `lecture7/three-d/campus.html`。
+
+`data/data.json` 为本案例复现所用的模拟数据。
